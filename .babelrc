@@ -1,0 +1,13 @@
+{
+  "extends": "react-static/.babelrc",
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "minify": true,
+        "displayName": false,
+        "preprocess": true
+      }
+    ]
+  ]
+}
